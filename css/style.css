@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+/* common classes */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    color: #000;
+    padding: 25px 60px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.heading{    
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.paragraph{
+    font-weight: 300;
+    font-size: 20px;
+    color: #17a2b8;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+
+/* header section */
+.header{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/tree-forest-road-trail-sunlight-morning-4342-pxhere.com_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* nav section */
+.nav{
+    width: 100%;
+    padding-top: 30px;
+}
+.nav .logo{
+    float: left;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav ul{
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+}
+.nav ul li{
+    float: left;
+    padding-left: 40px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #bdbdbd;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav ul li .white{
+    color: #fff;
+}
+
+
+/* banner section */
+
+
+.banner-section{
+    color: #fff;
+    position: relative;
+    top: 200px;
+}
+
+.banner-section h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-section h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.banner-section p{
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 60px;
+}
+
+.banner-section .random{
+    color: #fff;
+    background-color: #2f5be7;
+    margin-left: 20px;
+}
+
+
+/* main-features section */
+
+.main-features{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.feature{
+    float: left;
+    width: 29%;
+    padding: 15px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.feature img{
+    max-width: 30%;
+}
+.feature h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.feature p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 0;
+}
+.center{
+    margin: 0 2%;
+}
+
+/* about us section */
+
+.about-us{
+    padding: 80px 0;
+}
+.about-middle .para{
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* team members section */
+
+.team-members{
+    padding: 80px 0;
+}
+
+.members-mid .members{
+    width: 31%;
+    float: left;
+    border: 1px solid #bdbdbd;
+    border-radius: 5PX;
+    text-align: center;
+}
+.members img{
+    width: 100%;
+    border-radius: 5px;
+}
+.members H1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+.members H2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.members p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.members .fa{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/* Testimonials section */
+
+.Testimonials{
+    padding: 100px 0;
+    background-color: #ea3d56;
+}
+.Testimonials-heading{
+    color: #fff;
+}
+.Testimonials-paragraph{
+    color: #fff;
+}
+
+.Testimonials .article{
+    float: left;
+    padding: 50px 30px;
+    width: 25%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 5px;
+}
+.article .article-para{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.article img{
+    width: 48px;
+    height: 48px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.article .img-heading{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.article .img-para{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 13px;
+}
+.article-center{
+    margin: 0 4%;
+}
+
+
+/* footer srction */
+
+.footer{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #291734;
+    color: #fff;
+}
+.footer .fa{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.footer p{
+    font-size: 15px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* media querry  */
+
+/* Testimonials media querry section */
+
+@media only screen and (max-width:1600px){
+    .Testimonials .article{
+        width: 23%;
+    }
+}
+
+
+@media only screen and (max-width:1280px){
+    .Testimonials .article{
+        width: 25%;
+    }
+    .Testimonials .article{
+        padding: 40px 20px;
+    }
+}
+@media only screen and (max-width:1000px){
+
+    .feature{
+        width: 28%;
+    }
+    .Testimonials .article{
+        width: 22%;
+    }
+    .Testimonials .article{
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+
+    .nav{
+        background-color: #2f5be7;
+        padding: 30px 0;
+    }
+    .nav .logo{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nav ul li{
+        padding-left: 15px;
+    } 
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .feature{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .center{
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+    .members-mid .members{
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .members-mid .center{
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+
+/* testimonials section */
+.Testimonials .article{
+    width: 100%;
+    margin-bottom: 20px; 
+    padding: 50px 10px;
+}
+.Testimonials .article-center{
+    margin: 0 0;
+    margin-bottom: 20px;  
+}
+}
+
+
+@media only screen and (max-width:360px){
+
+/* nav and banner section */
+    .nav{
+        background-color: #2f5be7;
+        padding: 30px 0;
+    }
+    .nav .logo{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nav ul li{
+        padding-left: 12px;
+    } 
+    .nav ul li a{
+        font-size: 12px;
+    }
+
+    .banner-section{
+        position: relative;
+        top: 0;
+    }
+    .banner-section h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .banner-section h2{
+        font-size: 20px;
+    }
+    .banner-section p{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+    .banner-section .random{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        margin: 0 auto;
+    }
+
+
+/* feature section */
+
+    .feature{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .center{
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+
+
+ /* team members section */
+
+    .members-mid .members{
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .members-mid .center{
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+
+/* testimonials section */
+    .Testimonials .article{
+        width: 100%;
+        margin-bottom: 20px; 
+        padding: 50px 10px;
+    }
+    .Testimonials .article-center{
+        margin: 0 0;
+        margin-bottom: 20px;  
+    }
+
+/* footer section */
+
+
+    .footer{
+        padding-top: 50px;
+    }
+    .footer .fa{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:610px){
+
+    /* nav and banner section */
+        .nav{
+            background-color: #2f5be7;
+            padding: 30px 0;
+        }
+        .nav .logo{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    
+        .nav ul li{
+            padding-left: 12px;
+        } 
+        .nav ul li a{
+            font-size: 12px;
+        }
+    
+        .banner-section{
+            position: relative;
+            top: 50px;
+        }
+        .banner-section h1{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .banner-section h2{
+            font-size: 20px;
+        }
+        .banner-section p{
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 50px;
+        }
+        .banner-section .random{
+            display: inline-block;
+            position: relative;
+            top: 50px;
+        }
+    
+    
+    /* feature section */
+    
+        .feature{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .center{
+            margin: 0 0;
+            margin-bottom: 20px;
+        }
+    
+    
+        /* team members section */
+    
+        .members-mid .members{
+            width: 100%;
+            margin-bottom: 20px; 
+        }
+        .members-mid .center{
+            margin: 0 0;
+            margin-bottom: 20px;
+        }
+    
+        /* testimonials section */
+        .Testimonials .article{
+            width: 100%;
+            margin-bottom: 20px; 
+            padding: 50px 10px;
+        }
+        .Testimonials .article-center{
+            margin: 0 0;
+            margin-bottom: 20px;  
+        }
+    
+        /* footer section */
+    
+    
+        .footer{
+            padding-top: 50px;
+        }
+        .footer .fa{
+            font-size: 30px;
+            margin-left: 15px;
+        }
+        .footer p{
+            font-size: 10px;
+        }
+    
+    
+    }
+
+
+
