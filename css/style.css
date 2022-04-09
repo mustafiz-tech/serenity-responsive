@@ -43,7 +43,7 @@ body{
 /* header section */
 .header{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background-image: url(../img/tree-forest-road-trail-sunlight-morning-4342-pxhere.com_.jpg);
     background-repeat: no-repeat;
     background-position: center;
